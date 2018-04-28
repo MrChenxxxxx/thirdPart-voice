@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.cxg.skylele.voice.MainActivity">
+
+    <Button
+        android:id="@+id/btn_kdxf"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="科大讯飞发声" />
+
+    <Button
+        android:id="@+id/btn_yzs"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="云知声发声" />
+
+    <EditText
+        android:id="@+id/et_voice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="根据上午的评审，已经更新原型。标注①的页面为本期迭代范围，人脸识别介绍页只需设计不需开发" />
+
+    <SeekBar
+        android:id="@+id/seekBar_voice"
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:max="100" />
+</LinearLayout>
